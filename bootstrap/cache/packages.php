@@ -1,4 +1,15 @@
 <?php return array (
+  'barryvdh/laravel-dompdf' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\DomPDF\\ServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'PDF' => 'Barryvdh\\DomPDF\\Facade',
+    ),
+  ),
   'fideloper/proxy' => 
   array (
     'providers' => 
@@ -11,17 +22,6 @@
     'providers' => 
     array (
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
-    ),
-  ),
-  'barryvdh/laravel-dompdf' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Barryvdh\\DomPDF\\ServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'PDF' => 'Barryvdh\\DomPDF\\Facade',
     ),
   ),
 );
