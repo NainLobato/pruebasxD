@@ -34,3 +34,5 @@ Route::get('qrcode', function () {
 Route::get('/createWord', ['as'=>'createWord','uses'=>'WordTestController@createWordDocx']);		//Word desde cero
 Route::get('/createWord2', ['as'=>'createWord2','uses'=>'WordTestController2@createWordDocx']);		//Word con ejemplo de plantilla
 Route::get('/createWord3', ['as'=>'createWord3','uses'=>'WordTestController3@createWordDocx']);		//Word con plantilla de constancia de hechos
+
+Route::get('/SweetAlert/{alertType?}', ['as'=>'SweetAlert','uses'=>'SweetAlertDemo@index']);

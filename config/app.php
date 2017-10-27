@@ -180,6 +180,7 @@ return [
         //Mis providers
         Barryvdh\DomPDF\ServiceProvider::class,
         SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class,
+        UxWeb\SweetAlert\SweetAlertServiceProvider::class,
 
     ],
 
@@ -233,6 +234,7 @@ return [
         //Mis aliases
         'PDF' => Barryvdh\DomPDF\Facade::class,
         'QrCode' => SimpleSoftwareIO\QrCode\Facades\QrCode::class,
+        'Alert' => UxWeb\SweetAlert\SweetAlert::class,
 
     ],
 
