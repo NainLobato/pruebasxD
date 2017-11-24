@@ -36,3 +36,8 @@ Route::get('/createWord2', ['as'=>'createWord2','uses'=>'WordTestController2@cre
 Route::get('/createWord3', ['as'=>'createWord3','uses'=>'WordTestController3@createWordDocx']);		//Word con plantilla de constancia de hechos
 
 Route::get('/SweetAlert/{alertType?}', ['as'=>'SweetAlert','uses'=>'SweetAlertDemo@index']);
+
+
+Route::get('/datetime', function () {
+    return view('datetime');
+});
