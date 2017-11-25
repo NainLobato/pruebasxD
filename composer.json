@@ -13,6 +13,7 @@
         "laravelcollective/html": "^5.4.0",
         "phpoffice/phpword": "v0.13.*",
         "simplesoftwareio/simple-qrcode": "~1",
+		"tempusdominus/bootstrap-4": "4.0.0",
         "uxweb/sweet-alert": "dev-develop"
     },
     "require-dev": {
